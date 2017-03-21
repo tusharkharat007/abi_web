@@ -1,0 +1,35 @@
+.hint_available{
+	border: 1px solid #77b9e9;
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin: 2px;
+    padding: 2px;
+    font-size: 8px;
+    border-radius: 4px;
+}
+.hint_table{
+	margin-top: 5%;
+}
+.seat .seat_r .seat_selected{
+    background: #e6df13;
+    border: 1px solid #e6df13;
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin: 2px;
+    padding: 2px;
+    font-size: 8px;
+    border-radius: 4px;
+}
+.seat .seat_r .seat_selected a{
+    /*color:#007dd3;*/
+    color:#000;
+}
+
+.seat .seat_r .booked{
+    cursor: not-allowed;
+}
+.seat .seat_r .booked a{
+    cursor: not-allowed;
+}
